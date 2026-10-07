@@ -2,4 +2,6 @@ import "./reset.css";
 import "./style.css";
 import { homeContent } from "./home.js";
 import { menuContent } from "./menu.js";
-menuContent();
+import { aboutContent } from "./about.js";
+
+aboutContent()
