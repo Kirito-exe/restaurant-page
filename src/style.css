@@ -18,6 +18,7 @@ body{
     padding-left: 5em;
     background-color: var(--header);
     height: 10vh;
+    box-shadow: 2px 3px 30px rgba(0,0,0,0.2);
 }
 #header .nav{
     list-style-type: none;
@@ -51,14 +52,18 @@ body{
     display: grid;
     align-items: center;
     overflow: hidden;
+    border: 3px solid black;
+    box-shadow: 2px 3px 2px black;
 }
 #home{
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
+    border: none;
+    height: 100%;
 }
 #home img{
-    height: 79vh;
+    height: 100%;
     width: 100%;
     object-fit:cover;
     border-radius: 30px;
