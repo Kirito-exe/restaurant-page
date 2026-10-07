@@ -47,16 +47,20 @@ body{
     border-radius: 30px;
     background-color: var(--header);
     margin:50px 0;
-    min-height: 80%;
+    min-height: 90%;
+    display: grid;
+    align-items: center;
+    overflow: hidden;
 }
 #home{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     align-items: center;
 }
 #home img{
-    height: 80vh;
-    object-fit: cover;
-    max-width: 40%;
+    height: 79vh;
+    width: 100%;
+    object-fit:cover;
     border-radius: 30px;
 }
 #home .text{
@@ -79,6 +83,7 @@ button:hover{
     grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
     margin: 2em;
     gap:1em;
+    align-items: center;
 }
 #menu .card{
     height: 300px;
@@ -104,9 +109,14 @@ button:hover{
     flex-direction: column;
     padding: 2em 2em;
     align-items: center;
-    gap:2em
+    gap:2em;
+    justify-content: space-evenly;
 }
 #about-us img{
     object-fit:scale-down;
     max-height: 50vh;
+}
+button{
+    font-weight: bold;
+    width: 100%;
 }

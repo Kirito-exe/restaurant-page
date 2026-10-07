@@ -7,7 +7,7 @@ export function aboutContent(){
     image.src = icon;
     const heading = document.createElement("h2");
     heading.textContent="DON'T CONTACT US"
-    const para = document.createAttribute("p");
+    const para = document.createElement("p");
     para.textContent="Visit us, u can find us somewhere in this world even I am not sure."
     aboutUs.appendChild(image);
     aboutUs.appendChild(heading);
