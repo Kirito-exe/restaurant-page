@@ -1,0 +1,36 @@
+:root{
+    --background-color:#f1f1f1;
+    --header:white;
+}
+body{
+    height: 100vh;
+    background-color: var(--background-color);
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    align-items: center;
+    padding-left: 5em;
+    background-color: var(--header);
+    height: 10vh;
+}
+#header .nav{
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+#header .nav li button{
+    background-color:var(--header) ;
+    border: none;
+    padding: 1em 2em;
+    height: 100%;
+}
+#header .nav li{
+    border: 2px solid black;
+    border-bottom: none;
+    border-top: none;
+    height: 100%;
+}

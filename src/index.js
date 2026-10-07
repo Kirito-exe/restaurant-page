@@ -1,1 +1,2 @@
-console.log("working")
+import "./reset.css";
+import "./style.css";
